@@ -1,0 +1,426 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.fragment",
+    "module": "fragment",
+    "version": "1.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-1.8.4-sources.jar",
+          "url": "fragment-1.8.4-sources.jar",
+          "size": 200921,
+          "sha512": "d6eceed9be6e85306260f2659a50fecd72ce83f4b5d5bdbb200370d2f0ec25c618fbea0d475a60ffa3cd2742fb124cdc669e533be78f042e220f0851a8566af5",
+          "sha256": "04bf402d04f0117da923501f8310105d0e8dbfbf25ba2a3024ce821421d5b9d2",
+          "sha1": "a74752a34f471410e6fe97043c57b216f917e012",
+          "md5": "21d09deb12d33c04a837796ee0046fb8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-1.8.4.aar",
+          "url": "fragment-1.8.4.aar",
+          "size": 382498,
+          "sha512": "9dfa6b09015a0059cffe30e626fbcd8788dd600b854834a3aec5498fd7cb13290a6b5e1a4669874e693a1b5ab0c54192047bc1fb53861a002963a19150fba0ac",
+          "sha256": "3a7aaf157173f650d57d925d2f0581a99d5776f032eac6f83b5e85bcf83440e9",
+          "sha1": "93843c2fe4468668714df848a62be18c0e98fa15",
+          "md5": "7ee028be31b5a9d6a2b6a44bc81978e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-1.8.4.aar",
+          "url": "fragment-1.8.4.aar",
+          "size": 382498,
+          "sha512": "9dfa6b09015a0059cffe30e626fbcd8788dd600b854834a3aec5498fd7cb13290a6b5e1a4669874e693a1b5ab0c54192047bc1fb53861a002963a19150fba0ac",
+          "sha256": "3a7aaf157173f650d57d925d2f0581a99d5776f032eac6f83b5e85bcf83440e9",
+          "sha1": "93843c2fe4468668714df848a62be18c0e98fa15",
+          "md5": "7ee028be31b5a9d6a2b6a44bc81978e8"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.4"
+          },
+          "reason": "fragment is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-1.8.4-versionMetadata.json",
+          "url": "fragment-1.8.4-versionMetadata.json",
+          "size": 37214,
+          "sha512": "d2db17b6e0e2dbda90eef125fa803eb050b0fb73f65e4b0bf1756e4bc8cdf6d88e46bad919ee7d99d9b0e31689011f301c3ae6ccee165f02880d79e6e41dbaa6",
+          "sha256": "935b0b72d841487592a0ae5849e6ef0631b7b45890e84d7af3eb9a6824c47fd7",
+          "sha1": "feafac20ab9a247bfd631df111b4ddfa24214a57",
+          "md5": "a5a6648fdb653ac479c34a3ddafa6613"
+        }
+      ]
+    }
+  ]
+}

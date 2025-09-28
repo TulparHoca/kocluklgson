@@ -1,0 +1,17 @@
+androidx.core.splashscreen.MaskedDrawable
+androidx.core.splashscreen.SplashScreen
+androidx.core.splashscreen.SplashScreen$Companion
+androidx.core.splashscreen.SplashScreen$Impl
+androidx.core.splashscreen.SplashScreen$Impl$setKeepOnScreenCondition$1
+androidx.core.splashscreen.SplashScreen$Impl$setOnExitAnimationListener$2
+androidx.core.splashscreen.SplashScreen$Impl31
+androidx.core.splashscreen.SplashScreen$Impl31$hierarchyListener$1
+androidx.core.splashscreen.SplashScreen$Impl31$setKeepOnScreenCondition$1
+androidx.core.splashscreen.SplashScreen$KeepOnScreenCondition
+androidx.core.splashscreen.SplashScreen$OnExitAnimationListener
+androidx.core.splashscreen.SplashScreenViewProvider
+androidx.core.splashscreen.SplashScreenViewProvider$ViewImpl
+androidx.core.splashscreen.SplashScreenViewProvider$ViewImpl$_splashScreenView$2
+androidx.core.splashscreen.SplashScreenViewProvider$ViewImpl31
+androidx.core.splashscreen.ThemeUtils
+androidx.core.splashscreen.ThemeUtils$Api31

@@ -1,0 +1,20 @@
+androidx.coordinatorlayout
+attr coordinatorLayoutStyle
+attr keylines
+attr layout_anchor
+attr layout_anchorGravity
+attr layout_behavior
+attr layout_dodgeInsetEdges
+attr layout_insetEdge
+attr layout_keyline
+attr statusBarBackground
+id bottom
+id end
+id left
+id none
+id right
+id start
+id top
+style Widget_Support_CoordinatorLayout
+styleable CoordinatorLayout keylines statusBarBackground
+styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline

@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.webkit",
+    "module": "webkit",
+    "version": "1.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "webkit-1.12.1-sources.jar",
+          "url": "webkit-1.12.1-sources.jar",
+          "size": 185478,
+          "sha512": "42a3c0297c72aa09edebad844f6f3a44d8b16d3daa522ca509b5d8eedb2c7d028f2831ef833b9619ccaccb6ac4ffbf5e7881cb5b295f7645d9b6120be33a54ff",
+          "sha256": "47f0b2fae0b529825d2cd08c7599e42029cbe93aaffcc87240fe74ab515cb18b",
+          "sha1": "82c0dce697d9152d55ff84f29acb18588c13e534",
+          "md5": "da8a57929a56dc96b39101fa8198beff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webkit-1.12.1.aar",
+          "url": "webkit-1.12.1.aar",
+          "size": 173950,
+          "sha512": "d7c9d03c227fc7206cc918b87c4fef7fff52e23591267b317ef429474a7b78b33e8e758c8b828b2c170b1475469f0ff7236813c68b0f92851f114aeb86bfde0e",
+          "sha256": "18a0a51ad129e0c8563f031d46c8a7e61169f56ae84e562a0d75686941262111",
+          "sha1": "952ea5c16ab05a40f3b95c68e38c56cdc1ef2e97",
+          "md5": "ead1538e72d95dcd5843fa0a4e40c280"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webkit-1.12.1.aar",
+          "url": "webkit-1.12.1.aar",
+          "size": 173950,
+          "sha512": "d7c9d03c227fc7206cc918b87c4fef7fff52e23591267b317ef429474a7b78b33e8e758c8b828b2c170b1475469f0ff7236813c68b0f92851f114aeb86bfde0e",
+          "sha256": "18a0a51ad129e0c8563f031d46c8a7e61169f56ae84e562a0d75686941262111",
+          "sha1": "952ea5c16ab05a40f3b95c68e38c56cdc1ef2e97",
+          "md5": "ead1538e72d95dcd5843fa0a4e40c280"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "webkit-1.12.1-versionMetadata.json",
+          "url": "webkit-1.12.1-versionMetadata.json",
+          "size": 25325,
+          "sha512": "0031ea98821245d474e2721e908e52882c1ccb45ba1e8cb3a359d89fb2349d02a23bf3503cc549be506e40906bfc91bb992c0f471a7239860c166dc0bc04612b",
+          "sha256": "14867228fd391ea3e1ca18e0f39a2f91747cfc64a20d22bd2b25eef79a721a7e",
+          "sha1": "dd4b8cf6c96b37ff12ce3cece8723475a859f47a",
+          "md5": "b692bbf503639b46c23b1f24f790a9b3"
+        }
+      ]
+    }
+  ]
+}
