@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Öğrenci+</string>
+    <string name="title_activity_main">Öğrenci+</string>
+    <string name="package_name">com.student.app</string>
+    <string name="custom_url_scheme">com.student.app</string>
+</resources>
