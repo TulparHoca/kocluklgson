@@ -1,8 +1,5 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
-
 [[redirects]]
   from = "/*"
   to = "https://siciho2026.netlify.app"
-  status = 200
+  status = 301
+  force = true
